@@ -3,13 +3,13 @@
 
     <groupId>com.ocarlsen.test</groupId>
     <artifactId>mock-slf4j-impl</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <name>Mock SLF4J Implementation</name>
 
     <scm>
         <developerConnection>scm:git:https://github.com/ocarlsen/mock-slf4j-impl</developerConnection>
-      <tag>v1.0.0</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <properties>

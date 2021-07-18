@@ -6,15 +6,16 @@ This library is useful for testing your logging. It is a SLF4J implementation wi
 
 ### Maven
 
-(Note: the distribution to Maven Central is pending. In the meantime, you may check this project out and build it locally
-using `mvn clean install` to install the build artifact in your local Maven repository.)
+(Note: the distribution to Maven Central is pending. In the meantime, you may follow the steps on
+the [v1.0.0 Release](https://github.com/ocarlsen/mock-slf4j-impl/releases/tag/v1.0.0) page to download the artifact and
+install it in your local repo.)
 
 Add this Maven dependency to your POM file:
 
     <dependency>
         <groupId>com.ocarlsen.test</groupId>
         <artifactId>mock-slf4j-impl</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0</version>
         <scope>test</scope>
     </dependency>
 
@@ -61,5 +62,7 @@ To confirm the log events, get the mock from the delegate and test like this:
         inOrder.verifyNoMoreInteractions();
     }
 
-This example is demonstrated in [ExampleTest](https://github.com/ocarlsen/mock-slf4j-impl/blob/main/src/test/java/com/ocarlsen/test/ExampleTest.java).
+This example is demonstrated
+in [ExampleTest](https://github.com/ocarlsen/mock-slf4j-impl/blob/main/src/test/java/com/ocarlsen/test/ExampleTest.java)
+.
 

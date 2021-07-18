@@ -12,10 +12,10 @@ using `mvn clean install` to install the build artifact in your local Maven repo
 Add this Maven dependency to your POM file:
 
     <dependency>
-        <groupId>com.ocarlsen.util</groupId>
+        <groupId>com.ocarlsen.test</groupId>
         <artifactId>mock-slf4j-impl</artifactId>
-        <version>1.0</version>  
-        <scope>test</scope>        
+        <version>1.0.0-SNAPSHOT</version>
+        <scope>test</scope>
     </dependency>
 
 ### Gradle

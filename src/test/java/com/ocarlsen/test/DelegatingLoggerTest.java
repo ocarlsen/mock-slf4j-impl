@@ -1,4 +1,4 @@
-package com.ocarlsen.util;
+package com.ocarlsen.test;
 
 import org.junit.After;
 import org.junit.Test;

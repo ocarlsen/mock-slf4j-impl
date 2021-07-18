@@ -1,4 +1,4 @@
-package com.ocarlsen.util;
+package com.ocarlsen.test;
 
 import org.junit.Test;
 import org.slf4j.Logger;

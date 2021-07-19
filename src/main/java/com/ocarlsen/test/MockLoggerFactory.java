@@ -11,13 +11,13 @@ import static org.mockito.Mockito.mock;
 /**
  * http://www.slf4j.org/faq.html#slf4j_compatible
  */
-public class DelegatingLoggerFactory implements ILoggerFactory {
+public class MockLoggerFactory implements ILoggerFactory {
 
     private final Map<String, Logger> nameloggerMap = new HashMap<>();
 
     @Override
     public Logger getLogger(final String name) {
         final Logger mockLogger = mock(Logger.class);
-        return nameloggerMap.computeIfAbsent(name, key -> new DelegatingLogger(mockLogger));
+        return nameloggerMap.computeIfAbsent(name, key -> mockLogger);
     }
 }

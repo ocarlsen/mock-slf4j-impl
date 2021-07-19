@@ -16,7 +16,7 @@
  */
 package org.slf4j.impl;
 
-import com.ocarlsen.test.DelegatingLoggerFactory;
+import com.ocarlsen.test.MockLoggerFactory;
 import org.slf4j.ILoggerFactory;
 import org.slf4j.spi.LoggerFactoryBinder;
 
@@ -34,7 +34,7 @@ public final class StaticLoggerBinder implements LoggerFactoryBinder {
     // to avoid constant folding by the compiler, this field must *not* be final
     public static String REQUESTED_API_VERSION = "1.7"; // !final
 
-    private static final String LOGGER_FACTORY_CLASS_STR = DelegatingLoggerFactory.class.getName();
+    private static final String LOGGER_FACTORY_CLASS_STR = MockLoggerFactory.class.getName();
 
     /**
      * The unique instance of this class.
@@ -51,7 +51,7 @@ public final class StaticLoggerBinder implements LoggerFactoryBinder {
      * Private constructor to prevent instantiation
      */
     private StaticLoggerBinder() {
-        loggerFactory = new DelegatingLoggerFactory();
+        loggerFactory = new MockLoggerFactory();
     }
 
     /**

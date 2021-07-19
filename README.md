@@ -11,7 +11,7 @@ Add this Maven dependency to your POM file:
     <dependency>
         <groupId>com.ocarlsen.test</groupId>
         <artifactId>mock-slf4j-impl</artifactId>
-        <version>1.0.0</version>
+        <version>1.1.0</version>
         <scope>test</scope>
     </dependency>
 
@@ -47,8 +47,7 @@ To confirm the log events, get the mock from the delegate and test like this:
         loggingInstance.loggingMethod();
 
         // Then
-        final Logger logger = LoggerFactory.getLogger("MyLoggingClass");
-        final Logger mockLogger = ((DelegatingLogger) logger).getDelegate();
+        final Logger mockLogger = LoggerFactory.getLogger("MyLoggingClass");
 
         final InOrder inOrder = inOrder(mockLogger);
         inOrder.verify(mockLogger).debug("this is a debug message");

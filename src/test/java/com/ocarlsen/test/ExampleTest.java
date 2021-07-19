@@ -22,8 +22,7 @@ public class ExampleTest {
         loggingInstance.loggingMethod();
 
         // Then
-        final Logger logger = LoggerFactory.getLogger("MyLoggingClass");
-        final Logger mockLogger = ((DelegatingLogger) logger).getDelegate();
+        final Logger mockLogger = LoggerFactory.getLogger("MyLoggingClass");
 
         final InOrder inOrder = inOrder(mockLogger);
         inOrder.verify(mockLogger).debug("this is a debug message");

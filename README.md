@@ -6,10 +6,6 @@ This library is useful for testing your logging. It is a SLF4J implementation wi
 
 ### Maven
 
-(Note: the distribution to Maven Central is pending. In the meantime, you may follow the steps on
-the [v1.0.0 Release](https://github.com/ocarlsen/mock-slf4j-impl/releases/tag/v1.0.0) page to download the artifact and
-install it in your local repo.)
-
 Add this Maven dependency to your POM file:
 
     <dependency>

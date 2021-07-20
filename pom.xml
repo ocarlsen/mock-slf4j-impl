@@ -43,6 +43,11 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>11</maven.compiler.release>
+
+        <!-- For sonarcloud.io -->
+        <sonar.projectKey>ocarlsen_mock-slf4j-impl</sonar.projectKey>
+        <sonar.organization>ocarlsen</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
     <dependencies>

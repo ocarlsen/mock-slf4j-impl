@@ -13,11 +13,10 @@ import static org.mockito.Mockito.mock;
  */
 public class MockLoggerFactory implements ILoggerFactory {
 
-    private final Map<String, Logger> nameloggerMap = new HashMap<>();
+    private final Map<String, Logger> nameLoggerMap = new HashMap<>();
 
     @Override
     public Logger getLogger(final String name) {
-        final Logger mockLogger = mock(Logger.class);
-        return nameloggerMap.computeIfAbsent(name, key -> mockLogger);
+        return nameLoggerMap.computeIfAbsent(name, key -> mock(Logger.class));
     }
 }

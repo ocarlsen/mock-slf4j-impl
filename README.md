@@ -39,7 +39,7 @@ Consider the class you wish to test:
         }
     }
 
-To confirm the log events, get the mock from the delegate and test like this:
+To confirm the log events, get the mock from the factory and test like this:
 
     @Test
     public void testLogging() {

@@ -3,7 +3,6 @@ package com.ocarlsen.test;
 import org.junit.Test;
 import org.slf4j.Logger;
 
-import static org.hamcrest.CoreMatchers.instanceOf;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.notNullValue;
 import static org.hamcrest.CoreMatchers.sameInstance;

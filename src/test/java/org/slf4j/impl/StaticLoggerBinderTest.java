@@ -32,4 +32,9 @@ public class StaticLoggerBinderTest {
         assertThat(loggerFactory, is(instanceOf(MockLoggerFactory.class)));
     }
 
+    @Test
+    public void getLoggerFactoryClassStr() {
+        final String loggerFactoryClassStr = StaticLoggerBinder.getSingleton().getLoggerFactoryClassStr();
+        assertThat(loggerFactoryClassStr, is(MockLoggerFactory.class.getName()));
+    }
 }

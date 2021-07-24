@@ -3,6 +3,7 @@
 [![Maven Central](https://img.shields.io/maven-central/v/com.ocarlsen.test/mock-slf4j-impl.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22com.ocarlsen.test%22%20AND%20a:%22mock-slf4j-impl%22)
 [![Build](https://github.com/ocarlsen/mock-slf4j-impl/actions/workflows/build.yml/badge.svg)](https://github.com/ocarlsen/mock-slf4j-impl/actions/workflows/build.yml)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ocarlsen_mock-slf4j-impl&metric=alert_status)](https://sonarcloud.io/dashboard?id=ocarlsen_mock-slf4j-impl)
+[![SonarCloud Coverage](https://sonarcloud.io/api/project_badges/measure?project=ocarlsen_mock-slf4j-impl&metric=coverage)](https://sonarcloud.io/component_measures/metric/coverage/list?id=ocarlsen_mock-slf4j-impl)
 
 This library is useful for testing your logging. It is a SLF4J implementation with mock Loggers backed by Mockito.
 

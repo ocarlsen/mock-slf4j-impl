@@ -8,6 +8,10 @@ import org.slf4j.LoggerFactory;
 import java.util.ArrayList;
 import java.util.List;
 
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.empty;
+
 /**
  * This class was useful in reproducing {@link java.util.ConcurrentModificationException}s
  * before the {@link MockLoggerFactory} was using a {@link java.util.concurrent.ConcurrentHashMap}.
@@ -40,9 +44,7 @@ public class ConcurrencyTest {
             t.join();
         }
 
-        if (!exceptions.isEmpty()) {
-            throw exceptions.get(0);
-        }
+        assertThat(exceptions, is(empty()));
     }
 
     private Thread buildThreadToGetLogger(final String loggerName) {

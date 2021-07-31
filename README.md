@@ -16,7 +16,7 @@ Add this Maven dependency to your POM file:
     <dependency>
         <groupId>com.ocarlsen.test</groupId>
         <artifactId>mock-slf4j-impl</artifactId>
-        <version>1.2.0-SNAPSHOT</version>
+        <version>1.2.1-SNAPSHOT</version>
         <scope>test</scope>
     </dependency>
 

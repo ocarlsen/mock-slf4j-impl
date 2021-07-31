@@ -16,7 +16,7 @@ Add this Maven dependency to your POM file:
     <dependency>
         <groupId>com.ocarlsen.test</groupId>
         <artifactId>mock-slf4j-impl</artifactId>
-        <version>1.1.2-SNAPSHOT</version>
+        <version>1.2.0-SNAPSHOT</version>
         <scope>test</scope>
     </dependency>
 
@@ -63,6 +63,6 @@ To confirm the log events, get the mock from the factory and test like this:
     }
 
 This example is demonstrated
-in [ExampleTest](https://github.com/ocarlsen/mock-slf4j-impl/blob/main/src/test/java/com/ocarlsen/test/ExampleTest.java)
+in [ExampleTest](https://github.com/ocarlsen/mock-slf4j-impl/blob/develop/src/test/java/com/ocarlsen/test/ExampleTest.java)
 .
 

@@ -3,8 +3,8 @@ package com.ocarlsen.test;
 import org.slf4j.ILoggerFactory;
 import org.slf4j.Logger;
 
-import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 import static org.mockito.Mockito.mock;
 
@@ -13,7 +13,7 @@ import static org.mockito.Mockito.mock;
  */
 public class MockLoggerFactory implements ILoggerFactory {
 
-    private final Map<String, Logger> nameLoggerMap = new HashMap<>();
+    private final Map<String, Logger> nameLoggerMap = new ConcurrentHashMap<>();
 
     @Override
     public Logger getLogger(final String name) {

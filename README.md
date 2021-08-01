@@ -5,7 +5,7 @@
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ocarlsen_mock-slf4j-impl&metric=alert_status)](https://sonarcloud.io/dashboard?id=ocarlsen_mock-slf4j-impl)
 [![SonarCloud Coverage](https://sonarcloud.io/api/project_badges/measure?project=ocarlsen_mock-slf4j-impl&metric=coverage)](https://sonarcloud.io/component_measures/metric/coverage/list?id=ocarlsen_mock-slf4j-impl)
 
-This library is useful for testing your logging. It is a SLF4J implementation with mock Loggers backed by Mockito.
+This library is useful for testing your logging. It is an SLF4J 1.x implementation with mock Loggers backed by Mockito.
 
 ## Dependency Information
 

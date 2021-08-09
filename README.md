@@ -7,11 +7,11 @@
 
 This library is useful for testing your logging. It is an SLF4J 1.x implementation with mock Loggers backed by Mockito.
 
+Visit the [GitHub Pages](https://ocarlsen.github.io/mock-slf4j-impl/) site for more.
+
 ## Dependency Information
 
 ### Maven
-
-Add this Maven dependency to your POM file:
 
     <dependency>
         <groupId>com.ocarlsen.test</groupId>
@@ -22,7 +22,7 @@ Add this Maven dependency to your POM file:
 
 ### Gradle
 
-TODO
+    compile 'com.ocarlsen.test:mock-slf4j-impl:1.2.1-SNAPSHOT'
 
 ## Example Code
 
@@ -62,7 +62,6 @@ To confirm the log events, get the mock from the factory and test like this:
         inOrder.verifyNoMoreInteractions();
     }
 
-This example is demonstrated
-in [ExampleTest](https://github.com/ocarlsen/mock-slf4j-impl/blob/develop/src/test/java/com/ocarlsen/test/ExampleTest.java)
-.
+This example is demonstrated in
+[ExampleTest](https://github.com/ocarlsen/mock-slf4j-impl/blob/develop/src/test/java/com/ocarlsen/test/ExampleTest.java).
 

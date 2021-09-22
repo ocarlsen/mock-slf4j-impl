@@ -16,7 +16,7 @@ Visit the [GitHub Pages](https://ocarlsen.github.io/mock-slf4j-impl/) site for m
     <dependency>
         <groupId>com.ocarlsen.test</groupId>
         <artifactId>mock-slf4j-impl</artifactId>
-        <version>1.2.1</version>
+        <version>1.2.2-SNAPSHOT</version>
         <scope>test</scope>
     </dependency>
 

@@ -16,13 +16,13 @@ Visit the [GitHub Pages](https://ocarlsen.github.io/mock-slf4j-impl/) site for m
     <dependency>
         <groupId>com.ocarlsen.test</groupId>
         <artifactId>mock-slf4j-impl</artifactId>
-        <version>1.2.1</version>
+        <version>${project.version}</version>
         <scope>test</scope>
     </dependency>
 
 ### Gradle
 
-    compile 'com.ocarlsen.test:mock-slf4j-impl:1.2.1'
+    compile 'com.ocarlsen.test:mock-slf4j-impl:${project.version}'
 
 ## Example Code
 

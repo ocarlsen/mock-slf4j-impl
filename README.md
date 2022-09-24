@@ -16,15 +16,13 @@ l
     <dependency>
         <groupId>com.ocarlsen.test</groupId>
         <artifactId>mock-slf4j-impl</artifactId>
-        <version>1.2.2-SNAPSHOT</version>
+        <version>1.2.1</version>
         <scope>test</scope>
     </dependency>
 
 ### Gradle
 
-
-    compile 'com.ocarlsen.test:mock-slf4j-impl:${project.'
-
+    compile 'com.ocarlsen.test:mock-slf4j-impl:1.2.1'
 
 ## Example Code
 

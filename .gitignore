@@ -1,2 +1,8 @@
 # Release checklist
 Release.md
+
+# IntelliJ IDEA
+.idea/
+
+# Emacs
+*.~

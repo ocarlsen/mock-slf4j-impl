@@ -8,7 +8,7 @@
 This library is useful for testing your logging. It is an SLF4J 1.x implementation with mock Loggers backed by Mockito.
 
 Visit the [GitHub Pages](https://ocarlsen.github.io/mock-slf4j-impl/) site for more.
-
+l
 ## Dependency Information
 
 ### Maven
@@ -16,13 +16,15 @@ Visit the [GitHub Pages](https://ocarlsen.github.io/mock-slf4j-impl/) site for m
     <dependency>
         <groupId>com.ocarlsen.test</groupId>
         <artifactId>mock-slf4j-impl</artifactId>
-        <version>1.2.1</version>
+        <version>1.2.2-SNAPSHOT</version>
         <scope>test</scope>
     </dependency>
 
 ### Gradle
 
-    compile 'com.ocarlsen.test:mock-slf4j-impl:1.2.1'
+
+    compile 'com.ocarlsen.test:mock-slf4j-impl:${project.'
+
 
 ## Example Code
 

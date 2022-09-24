@@ -6,3 +6,6 @@ Release.md
 
 # Emacs
 *.~
+
+# Maven
+Target/

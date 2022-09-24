@@ -44,7 +44,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>11</maven.compiler.release>
 
-        <slf4j.version>2.0.2</slf4j.version>
+        <slf4j.version>2.0.0</slf4j.version>
 
         <!-- SonarCloud project -->
         <sonar.projectKey>ocarlsen_mock-slf4j-impl</sonar.projectKey>

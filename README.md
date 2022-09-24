@@ -5,10 +5,16 @@
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ocarlsen_mock-slf4j-impl&metric=alert_status)](https://sonarcloud.io/dashboard?id=ocarlsen_mock-slf4j-impl)
 [![SonarCloud Coverage](https://sonarcloud.io/api/project_badges/measure?project=ocarlsen_mock-slf4j-impl&metric=coverage)](https://sonarcloud.io/component_measures/metric/coverage/list?id=ocarlsen_mock-slf4j-impl)
 
-This library is useful for testing your logging. It is an SLF4J 1.x implementation with mock Loggers backed by Mockito.
+This library is useful for testing your logging. 
+It is an SLF4J 2.0.x implementation with mock Loggers backed by Mockito.
+It uses the new [Service Loader](https://www.slf4j.org/faq.html#changesInVersion200) mechanism.
+
+(If you still need old SLF4J 1.x implementation with `StaticLoggerBinder`,
+it is available as version [1.2.1](https://repo.maven.apache.org/maven2/com/ocarlsen/test/mock-slf4j-impl/1.2.1/).)
+
 
 Visit the [GitHub Pages](https://ocarlsen.github.io/mock-slf4j-impl/) site for more.
-l
+
 ## Dependency Information
 
 ### Maven
@@ -16,13 +22,13 @@ l
     <dependency>
         <groupId>com.ocarlsen.test</groupId>
         <artifactId>mock-slf4j-impl</artifactId>
-        <version>1.2.1</version>
+        <version>2.0.0-SNAPSHOT</version>
         <scope>test</scope>
     </dependency>
 
 ### Gradle
 
-    compile 'com.ocarlsen.test:mock-slf4j-impl:1.2.1'
+    compile 'com.ocarlsen.test:mock-slf4j-impl:2.0.0-SNAPSHOT'
 
 ## Example Code
 

@@ -22,7 +22,8 @@ l
 
 ### Gradle
 
-    compile 'com.ocarlsen.test:mock-slf4j-impl:1.2.2-SNAPSHOT'
+
+    compile 'com.ocarlsen.test:mock-slf4j-impl:${project.'
 
 
 ## Example Code
@@ -64,5 +65,5 @@ To confirm the log events, get the mock from the factory and test like this:
     }
 
 This example is demonstrated in
-[ExampleTest](https://github.com/ocarlsen/mock-slf4j-impl/blob/develop/src/test/java/com/ocarlsen/test/ExampleTest.java).
+[ExampleTest](https://github.com/ocarlsen/mock-slf4j-impl/blob/main/src/test/java/com/ocarlsen/test/ExampleTest.java).
 

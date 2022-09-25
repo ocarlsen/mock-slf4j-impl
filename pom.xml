@@ -26,6 +26,14 @@
         </developer>
     </developers>
 
+    <contributors>
+        <contributor>
+            <name>Witalij Berdinskich</name>
+            <email>radio_rogal@keemail.me</email>
+            <url>https://gitlab.com/radio_rogal</url>
+        </contributor>
+    </contributors>
+
     <scm>
         <connection>scm:git:https://github.com/ocarlsen/mock-slf4j-impl</connection>
         <developerConnection>${project.scm.connection}</developerConnection>

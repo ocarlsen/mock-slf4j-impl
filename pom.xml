@@ -52,16 +52,15 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>11</maven.compiler.release>
 
-        <slf4j.version>2.0.0</slf4j.version>
-
-        <!-- SonarCloud project -->
-        <sonar.projectKey>ocarlsen_mock-slf4j-impl</sonar.projectKey>
-        <sonar.organization>ocarlsen</sonar.organization>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-
         <!-- For Site Project Summary, "Java Version" field. -->
         <maven.compiler.source>${maven.compiler.release}</maven.compiler.source>
         <maven.compiler.target>${maven.compiler.release}</maven.compiler.target>
+
+        <slf4j.version>2.0.0</slf4j.version>
+
+        <!-- SonarCloud project -->
+        <sonar.organization>ocarlsen</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
     <dependencies>
@@ -226,6 +225,7 @@
 
                             <!-- The location where the site is uploaded -->
                             <path>${site.path}</path>
+
                             <!-- Use merge or override the content -->
                             <merge>true</merge>
                         </configuration>
